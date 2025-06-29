@@ -1,0 +1,153 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Georgia', serif;
+    background-color: #fef6f6;
+    color: #2e2e2e;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #4b1e1e;
+    color: white;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-box img {
+    width: 120px;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+.brand-name {
+    font-size: 28px;
+    font-weight: bold;
+    color: #f3cfcf;
+}
+
+.tagline {
+    font-size: 14px;
+    color: #f9dddd;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+nav ul li a {
+    color: #fff5f5;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffdddd;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #dbcac6;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h2 {
+    font-size: 40px;
+    color: #3b1e1e;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #5a2d2d;
+    margin-bottom: 10px;
+}
+
+.hero blockquote {
+    font-style: italic;
+    font-size: 16px;
+    color: #4b3a3a;
+    margin-bottom: 25px;
+}
+
+.btn {
+    background-color: #702c2c;
+    color: white;
+    padding: 14px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 6px;
+    box-shadow: 2px 4px 10px rgba(0,0,0,0.3);
+    transition: 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #964040;
+}
+
+/* Features Section */
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    background-color: #4b1e1e;
+    padding: 60px 10%;
+}
+
+.feature-box {
+    background-color: #fddddd;
+    padding: 25px;
+    width: 220px;
+    border-radius: 12px;
+    box-shadow: 3px 3px 15px rgba(0,0,0,0.2);
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.feature-box:hover {
+    transform: translateY(-5px);
+}
+
+.feature-box h3 {
+    font-size: 20px;
+    margin-bottom: 12px;
+    color: #702c2c;
+}
+
+.feature-box p {
+    font-size: 14px;
+    color: #4e2a2a;
+}
+
+/* Footer */
+footer {
+    background-color: #1c1c1c;
+    color: #f1f1f1;
+    text-align: center;
+    padding: 18px;
+    font-size: 14px;
+}
